@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Title from '../components/Title';
 import ContentLayout from '../components/Layout/ContentLayout';
-import Struktur from '../assets/struktur-organisasi.jpg';
+import struktur from '../assets/struktur-organisasi.jpg';
 
 const About = () => {
 	return (
@@ -25,7 +25,7 @@ const About = () => {
 						<h1 className="text-3xl lg:text-5xl font-bold">Sejarah Singkat</h1>
 					</ContentLayout.Header>
 					<ContentLayout.Body>
-						<p className="text-justify">
+						<p className="text-justify px-4 pb-4">
 							Suatu waktu pertengahan tahun 1995. Kala itu Fakultas Pendidikan Teknologi dan Kejuruan yang disingkat FPTK masih dibawah naungan Institut Keguruan dan Ilmu Pendidikan atau IKIP adalah suatu fakultas yang juga memiliki lembaga
 							ekstrakurikuler kemahasiswaan. Lembaga Kemahasiswaan antara lain ditingkat jurusan atau disebut dengan Himpunan mahasiswa jurusan terdiri dari 6 jurusan antara lain Elektro, Elektronika, Mesin, Otomotif, bangunan dan PKK atau
 							(Pendidikan Kesejahtraan Keluarga). Ditingkat fakultas, terdapat lembaga kemahasiswaan yang dikenal dengan nama Senat Mahasiswa (SEMA) yang didalamnya terdapat utusan mewakili berbagai jurusan yang ada di Fakultas Teknik. Di
@@ -59,7 +59,7 @@ const About = () => {
 						</div>
 						<div className="lg:w-6/12 text-center px-5">
 							<h1 className="text-3xl py-5 font-bold">Misi</h1>
-							<p className="text-justify">
+							<p className="text-justify pb-4">
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quaerat enim nihil exercitationem? Rem dolorem velit non ducimus in officia nam modi cumque nostrum, soluta expedita consequuntur hic omnis iste dicta!
 								Voluptate consectetur facere suscipit rerum, enim aliquid in veniam dolores ea doloribus nesciunt sunt labore? Similique provident veniam blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis
 							</p>
@@ -68,11 +68,11 @@ const About = () => {
 				</ContentLayout>
 				<ContentLayout>
 					<ContentLayout.Header>
-						<h1>Struktur Organisasi</h1>
+						<h1 className="text-3xl lg:text-5xl font-bold">Struktur Organisasi</h1>
 					</ContentLayout.Header>
 					<ContentLayout.Body>
 						<img
-							src={Struktur}
+							src={struktur}
 							alt="Struktur Orgnaisasi"
 							className="border-2 border-black rounded-b-3xl"
 						/>

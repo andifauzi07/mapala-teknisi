@@ -25,7 +25,7 @@ const Kontak = () => {
 						<ContactForm />
 					</div>
 				</ContentLayout>
-				<ContentLayout>
+				{/* <ContentLayout>
 					<ContentLayout.Header>
 						<h1 className="text-3xl lg:text-5xl font-bold">Sosial Media</h1>
 					</ContentLayout.Header>
@@ -37,7 +37,7 @@ const Kontak = () => {
 							<span></span>
 						</div>
 					</ContentLayout.Body>
-				</ContentLayout>
+				</ContentLayout> */}
 			</section>
 		</div>
 	);

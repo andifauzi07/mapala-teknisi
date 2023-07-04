@@ -27,7 +27,7 @@ const Divisi = () => {
 						className="w-full flex justify-center mb-10"
 					/>
 					<ContentLayout.Body>
-						<p className="text-justify px-2">
+						<p className="text-justify px-4 pb-4">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos a repellat voluptas magnam. Deserunt dolor illum dolorum, tempore velit esse tempora. Eum dignissimos quisquam nihil eaque explicabo facere aliquam hic, doloremque
 							repellat perspiciatis autem obcaecati ex saepe nemo dicta blanditiis eligendi aperiam ullam molestiae voluptatibus iure culpa sit illo repudiandae. Porro impedit ea iste quos iusto ipsa architecto amet, explicabo repellat quas
 							magnam esse sunt quaerat asperiores atque laborum tempore quae debitis reiciendis, nisi nihil eaque exercitationem adipisci est? Ad, rerum culpa! Eum maxime exercitationem explicabo quos dolor accusamus quo autem voluptatem
@@ -59,7 +59,7 @@ const Divisi = () => {
 						className="w-full flex justify-center mb-10"
 					/>
 					<ContentLayout.Body>
-						<p className="text-justify px-2">
+						<p className="text-justify px-4 pb-4">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis error excepturi ratione illo deserunt iure ut repellendus, nesciunt, doloribus totam sint molestiae et officia quasi, corporis dolor doloremque voluptas nemo.
 							Ab suscipit, eveniet laborum optio autem quia placeat facere at atque praesentium iure nihil tempore animi cupiditate odit asperiores perferendis reprehenderit ea ipsam culpa quidem! Commodi sed qui corporis doloribus sint,
 							velit accusantium iure quam perferendis saepe ipsum ipsa officiis, amet dolor quaerat eveniet itaque? Quia illo aspernatur nobis alias ullam accusantium consectetur nihil facere, explicabo perspiciatis inventore dolorem

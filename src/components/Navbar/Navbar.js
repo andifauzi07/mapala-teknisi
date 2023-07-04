@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
@@ -21,13 +21,12 @@ const Navbar = () => {
 							<Link
 								to="/"
 								className="lg:ml-8 block py-6 text-lg font-bold text-white hover:text-slate-400">
-								<img
+								{/* <img
 									src={logo}
 									alt=""
 									className="w-[32px]"
-								/>
-
-								<span>Mapala Teknisi</span>
+								/> */}
+								Mapala Teknisi
 							</Link>
 						</div>
 						<div className="flex items-center px-4">
