@@ -53,17 +53,11 @@ const About = () => {
 					<ContentLayout.Body>
 						<div className="lg:w-6/12 text-center px-5">
 							<h1 className="text-3xl py-5 font-bold">Visi</h1>
-							<p className="text-justify">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis amet quasi ducimus, laborum magnam reprehenderit quos, porro molestias sed ipsum veritatis fugiat sapiente consequuntur vero fuga possimus, in vel cumque!
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eius atque at, impedit dolores laudantium alias sequi obcaecati minus possimus, voluptatem asperiores maiores ullam. Ullam nihil at iste ea corporis!
-							</p>
+							<p className="text-justify">Seabagai wahana intelektual untuk membentuk anggota yang berwawasan lingkungan sebagai manifestasi dari potensi kepecintaalaman dan disiplin ilmu kemahasiswaannya</p>
 						</div>
 						<div className="lg:w-6/12 text-center px-5">
 							<h1 className="text-3xl py-5 font-bold">Misi</h1>
-							<p className="text-justify pb-4">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quaerat enim nihil exercitationem? Rem dolorem velit non ducimus in officia nam modi cumque nostrum, soluta expedita consequuntur hic omnis iste dicta!
-								Voluptate consectetur facere suscipit rerum, enim aliquid in veniam dolores ea doloribus nesciunt sunt labore? Similique provident veniam blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis
-							</p>
+							<p className="text-justify pb-4">Membina dan mengembangkan ilmu keorganisasian dan kepecintaalaman</p>
 						</div>
 					</ContentLayout.Body>
 				</ContentLayout>
