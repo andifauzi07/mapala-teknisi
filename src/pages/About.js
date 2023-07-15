@@ -22,6 +22,18 @@ const About = () => {
 			</section>
 			<section>
 				<ContentLayout>
+					<ContentLayout.Body>
+						<div className="lg:w-full text-center px-5">
+							<h1 className="text-3xl py-5 font-bold">Visi</h1>
+							<p className="text-center font-bold">Seabagai wahana intelektual untuk membentuk anggota yang berwawasan lingkungan sebagai manifestasi dari potensi kepecintaalaman dan disiplin ilmu kemahasiswaannya</p>
+						</div>
+						<div className="lg:w-full text-center px-5">
+							<h1 className="text-3xl py-5 font-bold">Misi</h1>
+							<p className="text-center font-bold pb-4">Membina dan mengembangkan ilmu keorganisasian dan kepecintaalaman</p>
+						</div>
+					</ContentLayout.Body>
+				</ContentLayout>
+				<ContentLayout>
 					<ContentLayout.Header>
 						<h1 className="text-3xl lg:text-5xl font-bold">Sejarah Singkat</h1>
 					</ContentLayout.Header>
@@ -47,18 +59,6 @@ const About = () => {
 							fakultas. Disebarlah beberapa pengumuman di sudut-sudut kampus antara lain Teknolsatu di DH (sekarang FBS) dan Lab-lab Teknik serta PKK. Perjalanan penelusuran Hutan itu dilaksanakan pada tanggal 9 Oktober 1995 kemudian
 							diabadikan sebagai hari lahirnya MAPALA Teknisi Fakultas Teknik UNM.
 						</p>
-					</ContentLayout.Body>
-				</ContentLayout>
-				<ContentLayout>
-					<ContentLayout.Body>
-						<div className="lg:w-6/12 text-center px-5">
-							<h1 className="text-3xl py-5 font-bold">Visi</h1>
-							<p className="text-justify">Seabagai wahana intelektual untuk membentuk anggota yang berwawasan lingkungan sebagai manifestasi dari potensi kepecintaalaman dan disiplin ilmu kemahasiswaannya</p>
-						</div>
-						<div className="lg:w-6/12 text-center px-5">
-							<h1 className="text-3xl py-5 font-bold">Misi</h1>
-							<p className="text-justify pb-4">Membina dan mengembangkan ilmu keorganisasian dan kepecintaalaman</p>
-						</div>
 					</ContentLayout.Body>
 				</ContentLayout>
 				<ContentLayout>
