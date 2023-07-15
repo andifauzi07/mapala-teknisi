@@ -4,6 +4,7 @@ import Title from '../components/Title';
 import ContentLayout from '../components/Layout/ContentLayout';
 import GH from '../assets/gunungHutan.jpg';
 import LH from '../assets/lingkungan.jpg';
+import Footer from '../components/Footer';
 
 const Divisi = () => {
 	return (
@@ -81,6 +82,7 @@ const Divisi = () => {
 					</ContentLayout.Body>
 				</ContentLayout>
 			</section>
+			<Footer />
 		</div>
 	);
 };

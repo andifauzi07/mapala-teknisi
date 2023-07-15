@@ -4,6 +4,7 @@ import Title from '../components/Title';
 import Alamat from '../components/Alamat';
 import ContentLayout from '../components/Layout/ContentLayout';
 import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 const Kontak = () => {
 	return (
@@ -39,6 +40,7 @@ const Kontak = () => {
 					</ContentLayout.Body>
 				</ContentLayout> */}
 			</section>
+			<Footer />
 		</div>
 	);
 };

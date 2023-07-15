@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero';
 import News from '../components/News/News';
+import Footer from '../components/Footer';
 
 const Home = () => {
 	return (
@@ -20,7 +21,7 @@ const Home = () => {
 			<section>
 				<News />
 			</section>
-			<footer></footer>
+			<Footer />
 		</div>
 	);
 };

@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Title from '../components/Title';
 import ContentLayout from '../components/Layout/ContentLayout';
 import struktur from '../assets/struktur-organisasi.jpg';
+import Footer from '../components/Footer';
 
 const About = () => {
 	return (
@@ -79,7 +80,7 @@ const About = () => {
 					</ContentLayout.Body>
 				</ContentLayout>
 			</section>
-			<footer></footer>
+			<Footer />
 		</div>
 	);
 };
