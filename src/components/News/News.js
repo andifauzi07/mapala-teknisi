@@ -5,9 +5,11 @@ import ContentLayout from '../Layout/ContentLayout';
 
 const News = () => {
 	const [urlPicture, setUrlPicture] = useState([]);
+
 	useEffect(() => {
 		const getApi = async () => {
-			const data = await api();
+			const token = process.env.REACT_APP_ACCES_TOKEN;
+			const data = await api(token);
 			setUrlPicture(data);
 		};
 		getApi();
